@@ -1,0 +1,24 @@
+package giris;
+import java.sql.SQLOutput;
+import java.util.Scanner;
+public class class3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Basamak sayısını giriniz: ");
+        int n = input.nextInt();
+
+        for (int a = 1;a<=n;a++) {
+
+
+            for (int b = a+1; b > 2; b--) {
+                System.out.print(" ");
+
+
+            }for (int c = (2*n)-1; c >= (2*a)-1;c--){
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+
+    }
+}
